@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Russo+One&display=swap");
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.minicard {
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  margin: 0.5rem;
+  position: relative;
+}
+.minicard img {
+  border: 2px solid black;
+  text-align: center;
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.minicard h4,
+p {
+  text-align: center;
+  /* font-weight: 500; */
+  text-transform: capitalize;
+  margin: 0;
+  color: black;
+  font-weight: 200;
+}
+.minicard:hover {
+  cursor: pointer;
+  box-shadow: 0 0 5px 2px #0f0f0f;
+}
+.btn {
+  border: 2px solid rgb(4, 1, 51);
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
+  color: white;
+  padding: 2px;
+  margin: 5rem;
+  letter-spacing: 1.3px;
+  font-size: 0.75rem;
+  border-color: transparent;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.btn:hover {
+  box-shadow: 0 5px 10px rgba(22, 22, 22, 0.8);
+  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
